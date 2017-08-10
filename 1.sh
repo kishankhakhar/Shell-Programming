@@ -27,7 +27,7 @@ case $choice in
 				  sleep 5
 			  else
 			  	echo "File Copied Successfully"
-			fi
+				fi
 				#   read ch
 				# case $ch in 
 				# [yY]) cp -i $filename $destination
@@ -47,5 +47,6 @@ case $choice in
 		[eE]) exit;;
 
 		*) echo 'please select a valid option'
+			sleep 2
 esac
 done
