@@ -1,0 +1,1 @@
+\c with echo takes input on the same line
